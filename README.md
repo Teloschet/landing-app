@@ -1,16 +1,23 @@
-# landing
+### Landing APP 1.0
 
-A new Flutter project.
+- App for access configurations of ssmr.
 
-## Getting Started
+### How to Install the App
 
-This project is a starting point for a Flutter application.
+- I'll disponibilize the apk install for the APP;
+- In this repository have the archive of configuration of them app.
 
-A few resources to get you started if this is your first Flutter project:
+### Recommended
+- Cellphone Android or IOS;
+- If u use Desktop configuration, install the Android Studio or Run your device emulator;
+- Install the VsCODE for change the code of them repository.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+#### How to install the repository
+```bash
+git clone https://github.com/Teloschet/landing-app.git landing 
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### That's all. Enjoy.
+
+### Change log
+#### v 1.0.0
