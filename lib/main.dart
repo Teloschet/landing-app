@@ -7,12 +7,27 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Landing App',
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Welcome to Flutter'),
-        ),
-        body: Body(),
+      home: HomeScreen(),
+    );
+  }
+}
+
+class HomeScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    var size = MediaQuery.of(context).size; 
+    return Scaffold(
+      body: Stack(
+        children: <Widget>[
+          Container(
+            height: size.height * .45,
+            decoration: BoxDecoration(
+              color: Color(0xFFF5CEB8),
+            ),
+          ),
+        ],
       ),
     );
   }
